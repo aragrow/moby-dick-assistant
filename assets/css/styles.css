@@ -1,0 +1,74 @@
+.moby-dick-assistant-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.moby-dick-assistant-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.moby-dick-assistant-heading-left {
+    text-align: left;
+}
+
+
+.moby-dick-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.moby-dick-label {
+    font-size: 1rem;
+    color: #555;
+}
+
+.moby-dick-textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 600px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+}
+
+.moby-dick-input:focus {
+    border-color: #007cba;
+    outline: none;
+}
+
+.moby-dick-submit-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.moby-dick-submit-button:hover {
+    background-color: #005a8d;
+}
+
+@media (max-width: 480px) {
+    .moby-dick-assistant-heading {
+        font-size: 1.2rem;
+    }
+
+    .moby-dick-input, .moby-dick-submit-button {
+        font-size: 0.9rem;
+    }
+}
